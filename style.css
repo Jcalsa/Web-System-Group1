@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+  background-color: #fff7fa;
+  color: #2f2f2f;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-bottom: 75px;
+}
+
+header {
+  padding: 20px;
+  background-color: #fff1f5;
+  text-align: center;
+  border-bottom: 1px solid #f0cfd9;
+}
+
+header h1 {
+  margin: 0;
+  color: #a13e5d;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 5px 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #f0cfd9;
+  background-color: #fff8fb;
+  color: #7f2e48;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  border-color: #a13e5d;
+  color: #a13e5d;
+  transform: translateY(-1px);
+}
+
+a {
+  color: #a13e5d;
+}
+
+h2 {
+  color: #7f2e48;
+}
+
+.page {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #f0d7df;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #bca7aa;
+  font: inherit;
+}
+
+button,
+.button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 22px;
+  border: 1px solid #a13e5d;
+  border-radius: 999px;
+  background-color: #a13e5d;
+  color: #ffffff;
+  font-weight: 600;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover,
+.button:hover {
+  border-color: #8a2f4b;
+  background-color: #8a2f4b;
+  transform: translateY(-1px);
+}
+
+.note {
+  color: #6a5a5d;
+  font-size: 13px;
+}
+
+.welcome {
+  padding: 80px 30px;
+  background-color: #fff0f5;
+  background-image: linear-gradient(rgba(255, 245, 249, 0.78), rgba(255, 245, 249, 0.78)), url("https://i.pinimg.com/736x/33/c2/3c/33c23c6570d251abd1d20c1be199b32e.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.welcome div {
+  max-width: 560px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro,
+.bouquets {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.intro p {
+  max-width: 550px;
+  margin: 0 auto 15px;
+}
+
+.bouquets {
+  background-color: #fff3f8;
+}
+
+.flower-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flower-card {
+  width: 180px;
+  padding: 15px;
+  border: 1px solid #f0d7df;
+  border-radius: 14px;
+  background-color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.flower-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.flower-card img {
+  position: relative;
+  z-index: 1;
+  width: 170px;
+  height: 180px;
+  max-width: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  filter: drop-shadow(0 5px 8px rgba(73, 59, 61, 0.28));
+}
+
+.flower-card h3 {
+  position: relative;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.flower-card p {
+  position: relative;
+  z-index: 1;
+}
+
+.flower-card:nth-child(1) {
+  background-image: url("https://i.pinimg.com/736x/82/b0/37/82b03758ce06ffacf2e92c999945d114.jpg");
+}
+
+.flower-card:nth-child(2) {
+  background-image: url("https://i.pinimg.com/736x/80/35/6d/80356d6288bc49382ddcc34a6c154680.jpg");
+}
+
+.flower-card:nth-child(3) {
+  background-image: url("https://i.pinimg.com/736x/b7/c6/a5/b7c6a548b51b48ed47c76b0708c887e2.jpg");
+}
+
+.about-page {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.84)), url("https://i.pinimg.com/736x/f1/84/7e/f1847e420e139b4f65e4b6c890102ca3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  border-top: 1px solid #f0cfd9;
+  background-color: #fff1f5;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .page {
+    margin: 30px 20px;
+    padding: 20px;
+  }
+
+  .welcome {
+    padding: 60px 20px;
+  }
+}
