@@ -3,7 +3,18 @@ body {
   background-color: #fff7fa;
   color: #2f2f2f;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding-bottom: 140px;
+  min-height: 100vh;
+  padding-bottom: 82px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.login-page main.page {
+  flex: 0 0 auto;
 }
 
 header {
@@ -140,6 +151,7 @@ button:hover,
 
 .bouquets {
   background-color: #fff3f8;
+  padding-bottom: 48px;
 }
 
 .flower-list {
@@ -205,6 +217,13 @@ button:hover,
 
 .about-page {
   background-image: linear-gradient(rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.84)), url("https://i.pinimg.com/736x/f1/84/7e/f1847e420e139b4f65e4b6c890102ca3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-page {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url("https://i.pinimg.com/736x/83/8b/37/838b373fff0117ec9ea035d456ef9dac.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -331,9 +350,10 @@ button:hover,
 
 footer {
   position: fixed;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  z-index: 10;
   padding: 20px;
   border-top: 1px solid #f0cfd9;
   background-color: #fff1f5;
