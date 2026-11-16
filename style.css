@@ -256,13 +256,23 @@ button:hover,
 }
 
 .member-hero {
-  border: 1px solid #d8a0b7;
+  border: 1px solid #d879a0;
   border-radius: 22px;
   overflow: hidden;
-  background-image: linear-gradient(rgba(83, 23, 45, 0.5), rgba(83, 23, 45, 0.5)), url("images/hero.jpg");
+  background: linear-gradient(135deg, #d9578a, #b83d70, #91345f);
   background-size: cover;
   background-position: center;
   color: #fff7fb;
+}
+
+/* Samuel De Guzman's Hero Image Only */
+.samuel-profile .member-hero {
+  background-image:
+    linear-gradient(rgba(83, 23, 45, 0.5), rgba(83, 23, 45, 0.5)),
+    url("images/hero.jpg");
+
+  background-size: cover;
+  background-position: center;
 }
 
 .member-hero-content {
@@ -274,6 +284,7 @@ button:hover,
   margin: 5px 0 10px;
   color: #ffffff;
   font-size: 44px;
+  text-shadow: 2px 2px 5px rgba(70, 15, 40, 0.4);
 }
 
 .member-panel {
@@ -380,7 +391,7 @@ footer {
   }
 }
 
-/* gen settings */
+/* general settings */
 
 /* galabo profile */
 .profile-page {
