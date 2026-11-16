@@ -259,7 +259,7 @@ button:hover,
   border: 1px solid #d8a0b7;
   border-radius: 22px;
   overflow: hidden;
-  background-image: linear-gradient(rgba(83, 23, 45, 0.5), rgba(83, 23, 45, 0.5)), url("https://i.pinimg.com/736x/bf/07/04/bf07047a4bbe18b6e5586e74b80d152e.jpg");
+  background-image: linear-gradient(rgba(83, 23, 45, 0.5), rgba(83, 23, 45, 0.5)), url("images/hero.jpg");
   background-size: cover;
   background-position: center;
   color: #fff7fb;
