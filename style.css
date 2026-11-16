@@ -380,21 +380,21 @@ footer {
   }
 }
 
-/* General Settings */
+/* gen settings */
 
-/* Personal Profile Page */
+/* galabo profile */
 .profile-page {
     background: linear-gradient(180deg, #fff2f7 0%, #f8e6ef 100%);
 }
 
-/* Profile Container */
+/* profile pic */
 .profile-container {
     max-width: 900px;
     margin: 35px auto 90px;
     padding: 20px;
 }
 
-/* Profile Header */
+/* header */
 .profile-header {
     display: flex;
     align-items: center;
@@ -433,7 +433,7 @@ footer {
     line-height: 1.6;
 }
 
-/* Profile Statistics */
+/* stats */
 .profile-stats {
     display: flex;
     gap: 25px;
@@ -449,14 +449,14 @@ footer {
     color: #a13e5d;
 }
 
-/* Divider */
+/* divider */
 .profile-container hr {
     margin: 25px 0;
     border: none;
     border-top: 1px solid #efc8d8;
 }
 
-/* About Me */
+/* aboutMe */
 .about-me {
     margin-top: 20px;
     padding: 24px;
@@ -481,7 +481,7 @@ footer {
     margin-bottom: 12px;
 }
 
-/* Gallery */
+/* gallery */
 .gallery {
     margin-top: 20px;
     padding: 24px;
@@ -505,7 +505,7 @@ footer {
     border-radius: 12px;
 }
 
-/* Back Button */
+/* back */
 .back-button {
     margin-top: 25px;
     text-align: center;
